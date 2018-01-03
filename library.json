@@ -1,0 +1,27 @@
+{
+  "name": "BMSCommsSender",
+  "keywords": "BMS, CellComms, EV, charger",
+  "description": "BMS Communications from Cell Top Master via serial",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/spmp/BMSCommsSender.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Jasper Mackenzie",
+      "email": "jasper.mackenzie@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "dependencies":
+  {
+    "name": "CellComms",
+    "authors": "Jasper Mackenzie",
+    "frameworks": "arduino"
+  },
+  "version": "0.1.0",
+  "frameworks": "arduino",
+  "platforms": "*"
+}
